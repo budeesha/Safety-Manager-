@@ -1,0 +1,6 @@
+{
+  "name": "Safety Guard AI",
+  "description": "AI-powered safety application for officers to capture hazards, analyze issues, and generate industrial documentation.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": []
+}

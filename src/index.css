@@ -1,0 +1,91 @@
+@import "tailwindcss";
+
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  background-color: #05070a;
+  color: #f0f6fc;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #30363d;
+  border-radius: 10px;
+}
+
+.markdown-body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.6;
+  font-size: 0.85rem;
+  color: #f0f6fc;
+}
+.markdown-body h1, .markdown-body h2, .markdown-body h3 {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  color: #f0f6fc;
+}
+.markdown-body h1 {
+  font-size: 1.25rem;
+}
+.markdown-body h2 {
+  font-size: 1.1rem;
+}
+.markdown-body p {
+  margin-bottom: 1em;
+  color: #8b949e;
+}
+.markdown-body ul {
+  list-style-type: disc;
+  padding-left: 1.5em;
+  margin-bottom: 1em;
+  color: #8b949e;
+}
+.markdown-body ol {
+  list-style-type: decimal;
+  padding-left: 1.5em;
+  margin-bottom: 1em;
+  color: #8b949e;
+}
+
+.compliance-list th {
+  text-align: left;
+  padding: 8px;
+  border-bottom: 1px solid #30363d;
+  color: #8b949e;
+  font-weight: normal;
+  font-size: 0.75rem;
+}
+.compliance-list td {
+  padding: 12px 8px;
+  border-bottom: 1px solid #1c2128;
+}
+.status-pill {
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 0.7rem;
+  font-weight: bold;
+}
+.status-pill.violation {
+  background: rgba(248, 81, 73, 0.15);
+  color: #f85149;
+}
+.status-pill.clear {
+  background: rgba(35, 134, 54, 0.15);
+  color: #3fb950;
+}
+.action-btn {
+  background: #ff6b00;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
